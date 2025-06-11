@@ -38,7 +38,7 @@
             "type": "Microsoft.Network/publicIPAddresses",
             "apiVersion": "2022-07-01",
             "name": "[parameters('publicIPAddresses_VM1_ip_name')]",
-            "location": "eastus",
+            "location": "westus",
             "sku": {
                 "name": "Basic",
                 "tier": "Regional"
@@ -55,7 +55,7 @@
             "type": "Microsoft.Network/publicIPAddresses",
             "apiVersion": "2022-07-01",
             "name": "[parameters('publicIPAddresses_VM2_ip_name')]",
-            "location": "eastus",
+            "location": "westus",
             "sku": {
                 "name": "Basic",
                 "tier": "Regional"
